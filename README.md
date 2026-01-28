@@ -19,6 +19,16 @@
 - List & dictionary comprehensions  
 - Writing programs that safely handle real-world errors  
 
+### 🔹 Object-Oriented & Advanced Python
+- Understanding Classes & Objects  
+- Encapsulation using protected variables  
+- Inheritance and method overriding  
+- Polymorphism in real examples  
+- Magic methods like `__init__` and `__str__`  
+- Creating and using decorators  
+- Generators using `yield`  
+- Thinking in terms of objects instead of scripts  
+
 ---
 
 ## Programs Included
@@ -40,6 +50,13 @@
 | student_records.py | Student record management system |
 | data_op.py | Data manipulation practice (optional) |
 
+### 🏗 Task 3 — OOP & Advanced Python
+| File | Description |
+|------|------------|
+| bank_account.py | OOP banking system with inheritance & polymorphism |
+| decorators.py | Custom execution time decorator |
+| generators.py | Fibonacci & custom range generators |
+
 ---
 
 ## How to Run the Programs
@@ -50,3 +67,9 @@ Run any file using:
 
 ```bash
 python filename.py
+
+```
+
+## Example:
+
+python bank_account.py
