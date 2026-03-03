@@ -1,0 +1,57 @@
+Machine Learning Model Evaluation Notes
+=======================================
+
+This reading activity provides understanding of evaluating model performance, handling overfitting and underfitting, and using various metrics for ML problems.
+
+1. Model Evaluation Metrics
+---------------------------
+
+1.1 Regression Metrics
+----------------------
+- Regression predicts continuous values.
+- Common metrics:
+  - Mean Absolute Error (MAE)
+  - Mean Squared Error (MSE)
+  - Root Mean Squared Error (RMSE)
+  - R-squared (R²)
+- Purpose: Measure how close predictions are to actual values.
+
+1.2 Classification Metrics
+--------------------------
+- Classification predicts discrete labels.
+- Common metrics:
+  - Accuracy
+  - Precision
+  - Recall
+  - F1-score
+  - Confusion Matrix
+  - ROC Curve & AUC
+- Purpose: Evaluate how well a model predicts class labels.
+
+2. Model Variance & Bias
+------------------------
+- Bias: Error due to overly simple model (assumes too much about data).
+- Variance: Error due to model sensitivity to training data (too complex, overfits).
+- Goal: Find balance between bias and variance to achieve good generalization.
+
+3. Underfitting vs Overfitting
+------------------------------
+- Underfitting:
+  - Model is too simple.
+  - Poor performance on training & test data.
+  - Solution: Increase model complexity, add features.
+- Overfitting:
+  - Model is too complex.
+  - Excellent performance on training data, poor on test data.
+  - Solution: Reduce complexity, use regularization, gather more data.
+
+4. Applying ML Algorithms
+-------------------------
+- Regression Algorithms: Linear Regression, Ridge, Lasso, Decision Tree Regressor, Random Forest Regressor.
+- Classification Algorithms: Logistic Regression, Decision Tree, Random Forest, Support Vector Machine, k-Nearest Neighbors.
+
+5. Summary
+----------
+- Evaluating models properly ensures reliable predictions.
+- Balancing bias and variance prevents underfitting & overfitting.
+- Choosing correct evaluation metrics depends on problem type (regression vs classification).
