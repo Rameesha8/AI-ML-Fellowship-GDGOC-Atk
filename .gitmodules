@@ -1,3 +1,6 @@
 [submodule "Week3-4/Plant-Watering-System"]
 	path = Week3-4/Plant-Watering-System
 	url = https://github.com/magic-meer/Plant-Watering-System
+[submodule "ResearchRAG-AI"]
+	path = ResearchRAG-AI
+	url = https://github.com/Rameesha8/ResearchRAG-AI.git
